@@ -1,0 +1,7 @@
+@media (max-width: 900px) { /* 600px es solo un ejemplo */
+    /* Todos nuestros estilos responsive */
+
+    body {
+        background: yellow;
+    }
+}

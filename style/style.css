@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+:root {
+  --green-color: #7ACC2D;
+  --white-color: white;
+  --black-color: black;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+  padding-left: 10px;
+}
+
+nav {
+  background-color: var(--green-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li, a {
+  color: var(--black-color);
+  padding-right: 10px;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li a:hover{
+  color: var(--white-color);
+}
+
+.main_section {
+  padding: 10%;
+  text-align: center;
+}
+
+.products {
+  background-image: url("../imagen/curve.png");
+  height: 200px;
+  background-size: cover;
+  background-position: center top;
+  padding: 10%;
+  display: flex;
+  align-items: center; 
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.product {
+  padding: 110px;
+}
+
+.product .content {
+  background-color: white;
+  padding: 10px;
+  margin-top: -310px;
+  box-shadow: 0 0 4px #737272
+}
+
+.image_content {
+  text-align: center;
+}
+
+.main_buttom {
+  background-color: var(--green-color);
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  color: var(--black-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main_buttom:hover {
+  background-color: #5a8e28;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  box-shadow: 0px 1px 2px #d8d6d6;
+}
+
+.description_content {
+  padding: 50px;
+  margin:60px;
+}
+
+.mention {
+  margin-top: 4%;
+}
+
+.mention_container {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
+.menciones {
+  text-align: center;
+}
+
+.mention_content {
+  padding: 0px;
+  /* box-shadow: 0 0 2px #d8d6d6; */
+  margin: 5px;
+  width: 242px;
+  height: 100px;
+}
+
+.mention_content h2, p {
+  margin: 0px;
+}
+
+footer {
+  display: flex;
+  margin-top: 10%;
+  background-color: #313337;
+  width: 100%;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+  padding: 10px;
+}
