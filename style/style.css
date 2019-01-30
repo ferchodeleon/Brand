@@ -99,6 +99,7 @@ nav li a:hover{
 .description_content {
   padding: 50px;
   margin:60px;
+  text-align: -webkit-center;
 }
 
 .mention {

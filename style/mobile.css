@@ -1,7 +1,63 @@
-@media (max-width: 900px) { /* 600px es solo un ejemplo */
+@media (max-width: 600px) { /* 600px es solo un ejemplo */
     /* Todos nuestros estilos responsive */
 
+    .main_section {
+        padding: 7%;
+    }
+
+    .products{
+        display: inherit;
+        height: auto;
+    }
+
+    .product {
+        padding: 80px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .product .content, .image_content {
+        margin-top: auto;
+        height: auto;
+    }
+
+    .description {
+        display: inherit;
+    }
+
+    .description_content {
+        text-align: -webkit-center;
+    }
+
+    .mention_container {
+        display: inherit;
+        height: auto;
+        text-align: -webkit-center;
+    }
+
+    .mention_content {
+        height: auto;
+    }
+}
+
+/* @media (min-width: 601px) and (max-width: 1000px) {
     body {
         background: yellow;
     }
-}
+
+    .products {
+        display: inherit;
+        height: auto;
+    }
+
+    .product {
+        padding: 80px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .product .content {
+        height: auto;
+        margin-top: auto;
+    }
+} */
