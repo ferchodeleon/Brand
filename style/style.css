@@ -130,7 +130,6 @@ nav li a:hover{
 
 footer {
   display: flex;
-  margin-top: 10%;
   background-color: #313337;
   width: 100%;
   justify-content: space-between;
