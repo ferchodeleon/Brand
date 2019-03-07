@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 :root {
+  /*    Colores   */
   --green-color: #7ACC2D;
   --white-color: white;
   --black-color: black;
+
+  /*    Tipografia    */
+  --normal:12px;
+  /*  Espacio   */
+  --space:10px;
+  --space-2:20px;
+  /*  Box shadow  */
+  --box:0px 0 2px 1px #e6e5e9;
 }
 
 html, body {
@@ -17,6 +26,14 @@ body {
 
 .logo{
   padding-left: 10px;
+}
+
+p, label {
+  font-size: var(--normal);
+}
+
+label {
+  padding-bottom: var(--space);
 }
 
 nav {
@@ -129,6 +146,31 @@ nav li a:hover{
   margin: 0px;
 }
 
+/* Ajuste pagina venta */
+
+.modulo_pago {
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+
+.modulo_pago input {
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.modulo_pago_images {
+  max-width: 150px;
+  margin: auto;
+}
+
+
+/* Ajuste pagina venta */
+
 footer {
   display: flex;
   background-color: #313337;
@@ -142,3 +184,27 @@ footer p {
   color: white;
   padding: 10px;
 }
+
+/*      Inicio ajuste de pagina exito       */
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #313337;
+}
+
+.container_exito {
+  text-align: center;
+}
+
+.text h2, h5 {
+  color: white;
+  text-align: center;
+}
+
+.text a {
+  color: var(--green-color);
+}
+
